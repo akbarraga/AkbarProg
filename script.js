@@ -9,3 +9,7 @@ function toggleNavbar() {
     var sidebar = document.getElementById("sidebar");
     sidebar.classList.toggle("hidden");
   }
+
+  function closeNotification() {
+    document.getElementById('notification').style.display = 'none';
+  }
